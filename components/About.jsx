@@ -9,8 +9,8 @@ const myFont = localFont({
 
 const About = () => {
   return (
-    <div className="py-12 px-4 mt-16 min-h-screen">
-      <div className="max-w-[1600px] mx-auto flex flex-col items-center xl:items-start xl:flex-row justify-between gap-16  xl:h-[800px]">
+    <div className="pt-12 mt-16 min-h-screen">
+      <div className="max-w-[1600px] mx-auto flex flex-col items-center xl:items-start xl:flex-row justify-between gap-16 xl:h-[800px]">
         <div className="relative w-full max-w-[800px] h-[600px] xl:max-w-[600px] xl:h-full rounded-lg flex-shrink-0">
           <Image
             src="/about.jpg"

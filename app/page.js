@@ -1,11 +1,7 @@
-import localFont from "next/font/local";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Works from "./components/Works";
-
-const myFont = localFont({
-  src: "./blackrocketdemo-2okgk.otf",
-});
+import Hero from "../components/Hero";
+import About from "../components/About";
+import Works from "../components/Works";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -14,6 +10,7 @@ export default function Home() {
         <Hero />
         <About />
         <Works />
+        <Contact />
       </div>
     </div>
   );
